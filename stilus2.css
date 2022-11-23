@@ -1,0 +1,38 @@
+table{
+    /*cellaszegélyek közti rés eltűntetése*/
+    border-collapse: collapse;
+    color: white;
+    margin: auto;
+}
+
+a{
+    text-decoration: none;
+    color: chocolate;
+}
+
+li{
+    list-style-type: none;
+    display: inline-block;
+}
+
+th{
+    background-color: rgb(71, 69, 69);
+}
+
+
+td{
+    border: 1px solid gray;
+    width: 10vw;
+    height: 10vw;
+    color: black;
+    font-size: 100px;
+    text-align: center;
+}
+
+tbody tr:nth-child(even) td:nth-child(odd){
+    background-color: rgb(197, 191, 191);
+}
+
+tbody tr:nth-child(odd) td:nth-child(even){
+    background-color: rgb(197, 191, 191);
+}

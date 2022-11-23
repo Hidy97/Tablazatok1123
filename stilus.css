@@ -1,0 +1,36 @@
+table{
+    width: 100%;
+    /*cellaszegélyek közti rés eltűntetése*/
+    border-collapse: collapse;
+}
+
+td, th{
+    border: 1px solid gray;
+}
+
+th{
+    font-variant: small-caps;
+    background-color: aqua;
+    color: blueviolet;
+}
+
+tbody tr:nth-child(even){
+    background-color: chartreuse;
+}
+
+tbody tr:nth-child(odd){
+    color: chartreuse;
+}
+.osszevont{
+    background-color: darkcyan;
+}
+
+a{
+    text-decoration: none;
+    color: chocolate;
+}
+
+li{
+    list-style-type: none;
+    display: inline-block;
+}

@@ -1,0 +1,41 @@
+body{
+    color: rgb(38, 91, 126);
+}
+a{
+    text-decoration: none;
+    color: chocolate;
+}
+
+li{
+    list-style-type: none;
+    display: inline-block;
+}
+
+table{
+    width: 100%;
+    /*cellaszegélyek közti rés eltűntetése*/
+    border-collapse: collapse;
+}
+
+thead{
+    background-color: rgb(151, 172, 228);
+}
+tbody tr:nth-child(even){
+    background-color: rgb(235, 243, 243);
+}
+
+thead th:nth-child(2), tbody th:nth-child(2){
+    border-right: 1px solid rgb(199, 196, 196);
+}
+
+thead tr:nth-child(1), tbody td, th{
+    border-bottom: 1px solid rgb(199, 196, 196);
+}
+
+th{
+    text-align: center;
+}
+
+td{
+    text-align: right;
+}
